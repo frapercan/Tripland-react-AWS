@@ -1,0 +1,118 @@
+{
+  "home": {
+    "title": "El lugar donde empieza cada viaje",
+    "joinUs": "Únete a la mayor comunidad viajera, creada por y para viajeros.",
+    "beFast": "Sé uno de los primeros en registrarte y obtén cientos de premios",
+    "registerNow": "Regístrate ahora",
+    "titleFirstItem": "Viaja como local",
+    "descriptionFirstItem": "Podrás seguir las rutas de personas locales que te permitan descubrir secretos y lugares menos turísticos de la ciudad. Además puedes crear tus propias rutas y compartirlas.",
+    "titleSecondItem": "Conoce gente como tú",
+    "descriptionSecondItem": "Una comunidad de viajeros con las mismas inquietudes que tú. Gente que se emociona al pensar en la próxima experiencia. Ya puedes compartir tu pasión sin limitaciones.",
+    "titleThirdItem": "Conviértete en experto",
+    "descriptionThirdItem": "Como comunidad de viajeros, se premian las aportaciones. Cuantas más rutas subas y más participas más puntos conseguirás y por lo tanto mejores beneficios.",
+    "lastRoutes": "Últimas rutas"
+  },
+  "buttons": {
+    "close": "Cerrar",
+    "login": "Entrar",
+    "register": "Registro",
+    "loginFB": "Entrar con Facebook",
+    "loginGoogle": "Entrar con Google",
+    "loginMail": "Entrar con tu Correo",
+    "back": "Volver",
+    "enter": "Entrar",
+    "signOut": "Cerrar sesión",
+    "createRoute": "Crear Ruta",
+    "exit": "Salir",
+    "submit": "Enviar",
+    "AvatarChange": "Cambiar Avatar",
+    "myProfile": "Mi Perfil",
+    "community":" Comunidad"
+  },
+  "dialogs": {
+    "description": {
+      "login": "Accede a GoTripland con tu cuenta",
+      "register": "Registrate para acceder a GoTripland"
+    }
+  },
+  "forms": {
+    "privatePolicyAndTermsIntro": "Al continuar confirmas tu conformidad con nuestra ",
+    "privatePolicy": "Política de privacidad",
+    "useTerms": "Términos de uso",
+    "and": "y",
+    "login": {
+      "mail": "E-mail",
+      "password": "Contraseña",
+      "forgotPassword": "Olvidaste tu contraseña?",
+      "FBGoogleBack": "Desea hacer login con Facebook o Google?"
+    },
+    "register": {
+      "username": "Nombre de Usuario",
+      "gender": "Género",
+      "male": "Hombre",
+      "female": "Mujer",
+      "selectGender": "Selecciona algún género",
+      "codeSent": "Se ha enviado un código de confirmación a su email. Esto puede tardar unos minutos.",
+      "verify": "Verificar",
+      "waitnPress": "Si tras unos minutos sigue sin recibir el código de verificación. Pulse",
+      "askAgain": "para solicitar el código nuevamente.",
+      "register": "Registrarse"
+    }
+  },
+  "alerts": {
+    "validMail": "Introduce un email válido.",
+    "validPassword": "El tamaño mínimo de contraseña es de 8 carácteres",
+    "mailTaken": "Ups! Parece que esta cuenta ya está registrada en el sistema. Intenta hacer login o recuperar tu contraseña.",
+    "shortNickname": "Introduce un nombre de usuario de al menos 3 carácteres.",
+    "passportUpdateSuccess": "Perfil actualizado correctamente",
+    "passportUpdateError": "Upss, no hemos podido actualizar tu perfil!"
+  },
+  "helpers": {
+    "hereMinus": "aquí"
+  },
+  "passport": {
+    "title": "Pasaporte",
+    "myProfile": "Mi perfil",
+    "nickname": "Nombre de usuario",
+    "name": "Nombre",
+    "surname": "Apellidos",
+    "birthday": "Fecha de nacimiento",
+    "gender": "Género",
+    "male": "Hombre",
+    "female": "Mujer",
+    "country": "País",
+    "location": "Localidad",
+    "email": "Email",
+    "visibilityTip": "Marca este campo para que sea visible en tu pasaporte para otros usuarios",
+    "description": "Descripción",
+    "validation": {
+      "shortNickname": "Demasiado Corto"
+    }
+  },
+  "errors": {
+    "nickname":{
+      "required":"Inserte un nombre de usuario",
+      "minLength":"El nombre de usuario debe de contener almenos 4 carácteres",
+      "maxLength":"El nombre de usuario debe de contener menos de 15 carácteres"
+    },
+    "birthday":{
+      "required":"Inserte una fecha de nacimiento"
+    },
+    "country":{
+      "required":"Inserte un pais"
+    },
+    "location":{
+      "required":"Inserte una localidad"
+    },
+    "gender":{
+      "required":"genero"
+    },
+    "signIn": "Ha fallado el inicio de sesión. Compruebe las credenciales e intentelo de nuevo."
+  },
+  "sectionTitle":{
+    "community": "Comunidad",
+    "userPassport":"Pasaporte de: @{{nickname}}",
+    "myPassport":"Mi pasaporte",
+    "routeForm":"Creador de rutas"
+  }
+}

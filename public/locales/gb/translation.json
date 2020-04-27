@@ -1,0 +1,93 @@
+{
+  "home": {
+    "title":"The place where every journey begins",
+    "joinUs":"Join the biggest travel community, created by and for travelers.",
+    "beFast":"Be one of the first to register and get hundreds of prizes",
+    "registerNow": "Register Now",
+    "titleFirstItem": "Travel as a local",
+    "descriptionFirstItem": "You will be able to follow the routes of local people that will allow you to discover secrets and less touristic places of the city. You can also create your own routes and share them.",
+    "titleSecondItem":"Meet people like you",
+    "descriptionSecondItem":"A community of travelers with the same concerns as you. People who are excited about the next experience. You can now share your passion without limitations.",
+    "titleThirdItem":"Become an expert",
+    "descriptionThirdItem": "As a community of travelers, contributions are rewarded. The more routes you climb and the more you participate, the more points you get and therefore the better the benefits.",
+    "lastRoutes":"Last routes"
+
+  },
+  "buttons":{
+    "close": "Close",
+    "login": "Login",
+    "register": "Sign in",
+    "loginFB" : "Login with Facebook",
+    "loginGoogle": "Login with Google",
+    "loginMail": "Login with your Mail",
+    "back": "Back",
+    "enter": "Enter",
+    "signOut": "Sign Out",
+    "exit": "Exit",
+    "createRoute": "Create Route",
+    "submit": "Submit",
+    "AvatarChange": "Change Avatar"
+
+
+  },
+  "dialogs":{
+    "description":{
+      "login": "Access to goTripland with your account",
+      "register": "Register to access to goTripland"
+    }
+  },
+  "forms":{
+    "privatePolicyAndTermsIntro":"By continuing, you confirm your agreement with our ",
+    "privatePolicy":"Privacy policy",
+    "useTerms":"Terms of use",
+    "and":"and",
+    "login":{
+      "mail": "E-mail",
+      "password": "Password",
+      "forgotPassword": "Did you forgot your password?",
+      "FBGoogleBack": "Would you like to login with Facebook or Google?"
+    },
+    "register": {
+      "username": "Username",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "selectGender": "Select gender",
+      "codeSent": "A confirmation code has been sent to your email. This may take a few minutes.",
+      "verify": "Verify",
+      "waitnPress": "If after a few minutes you still do not receive the verification code. Click on",
+      "askAgain": "to request the code again.",
+      "register": "Register"
+    }},
+    "alerts": {
+      "validMail": "Enter a valid email.",
+      "validPassword": "The minimum password size is 8 characters",
+      "mailTaken": "Oops! Looks like this account is already registered in the system. Try logging in or retrieving your password.",
+      "shortNickname": "Enter a username of at least 3 characters.",
+      "passportUpdateSuccess": "Passport succesfully updated!",
+      "passportUpdateError": "Ooops, we couldn't update your profile!"
+    },
+    "helpers": {
+      "hereMinus": "here"
+    },
+    "passport":{
+      "title": "Pasaporte",
+      "nickname": "Nickname",
+      "birthday": "Birthday",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "country": "Country",
+      "location": "Location",
+      "validation":{
+        "shortNickname": "Too short"
+      }
+    },
+    "sectionTitle":{
+      "community": "Community",
+      "userPassport":"@{{nickname}} Passport",
+      "myPassport":"Mi pasaporte",
+      "routeForm":"Creador de rutas"
+    }
+
+}

@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tripland-react-aws-dev-181733-authRole",
+            "UnauthRoleArn": "arn:aws:iam::405873318890:role/amplify-tripland-react-aws-dev-181733-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::405873318890:role/amplify-tripland-react-aws-dev-181733-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-tripland-react-aws-dev-181733-deployment",
+            "UnauthRoleName": "amplify-tripland-react-aws-dev-181733-unauthRole",
+            "StackName": "amplify-tripland-react-aws-dev-181733",
+            "StackId": "arn:aws:cloudformation:eu-west-2:405873318890:stack/amplify-tripland-react-aws-dev-181733/a51c0d60-88a2-11ea-989c-0617023ccf6e",
+            "AmplifyAppId": "dmd4o9tfn85m7"
+        },
+        "categories": {
+            "auth": {
+                "triplandreactawse53d3a55": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"628472021282827\",\"client_secret\":\"f3fc6678977df3a1e2133e0191acb4a2\"},{\"ProviderName\":\"Google\",\"client_id\":\"585410094563-6bq3q9tpfmg3h3jt70a7u911vopa041p.apps.googleusercontent.com\",\"client_secret\":\"6aYHk1rB7sSqjMF2Mjy4tYCB\"}]"
+                }
+            }
+        }
+    }
+}
