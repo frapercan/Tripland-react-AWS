@@ -1,27 +1,34 @@
 {
-	"auth": {},
-	"api": {
-		"triplandApi": {
-			"service": "AppSync",
-			"providerPlugin": "awscloudformation",
-			"output": {
-				"authConfig": {
-					"additionalAuthenticationProviders": [],
-					"defaultAuthentication": {
-						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
-						"userPoolConfig": {
-							"userPoolId": "authtriplandreactawse53d3a55"
-						}
-					}
-				}
-			}
-		}
-	},
-	"storage": {
-		"tripContent": {
-			"service": "S3",
-			"providerPlugin": "awscloudformation"
-		}
-	},
-	"hosting": {}
+    "auth": {
+        "triplandreactawse53d3a55": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": [],
+            "customAuth": false
+        }
+    },
+    "api": {
+        "triplandApi": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "authConfig": {
+                    "additionalAuthenticationProviders": [],
+                    "defaultAuthentication": {
+                        "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+                        "userPoolConfig": {
+                            "userPoolId": "authtriplandreactawse53d3a55"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "storage": {
+        "tripContent": {
+            "service": "S3",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "hosting": {}
 }
