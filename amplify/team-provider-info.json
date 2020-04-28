@@ -47,6 +47,9 @@
             "auth": {
                 "triplandreactawsd8a257c1": {
                     "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"628472021282827\",\"client_secret\":\"f3fc6678977df3a1e2133e0191acb4a2\"},{\"ProviderName\":\"Google\",\"client_id\":\"585410094563-6bq3q9tpfmg3h3jt70a7u911vopa041p.apps.googleusercontent.com\",\"client_secret\":\"6aYHk1rB7sSqjMF2Mjy4tYCB\"}]"
+                },
+                "triplandreactawse53d3a55": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"628472021282827\",\"client_secret\":\"f3fc6678977df3a1e2133e0191acb4a2\"},{\"ProviderName\":\"Google\",\"client_id\":\"585410094563-6bq3q9tpfmg3h3jt70a7u911vopa041p.apps.googleusercontent.com\",\"client_secret\":\"6aYHk1rB7sSqjMF2Mjy4tYCB\"}]"
                 }
             }
         }
