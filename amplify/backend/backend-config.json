@@ -5,12 +5,6 @@
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"customAuth": false
-		},
-		"triplandreactawsbe4f41ae": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation",
-			"dependsOn": [],
-			"customAuth": false
 		}
 	},
 	"api": {
@@ -28,37 +22,13 @@
 					}
 				}
 			}
-		},
-		"tripApi": {
-			"service": "AppSync",
-			"providerPlugin": "awscloudformation",
-			"output": {
-				"authConfig": {
-					"additionalAuthenticationProviders": [],
-					"defaultAuthentication": {
-						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
-						"userPoolConfig": {
-							"userPoolId": "authtriplandreactawsbe4f41ae"
-						}
-					}
-				}
-			}
 		}
 	},
 	"storage": {
 		"tripContent": {
 			"service": "S3",
 			"providerPlugin": "awscloudformation"
-		},
-		"tripMedia": {
-			"service": "S3",
-			"providerPlugin": "awscloudformation"
 		}
 	},
-	"hosting": {
-		"amplifyhosting": {
-			"service": "amplifyhosting",
-			"type": "cicd"
-		}
-	}
+	"hosting": {}
 }
