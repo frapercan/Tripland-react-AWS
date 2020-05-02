@@ -113,6 +113,6 @@
     "community": "Comunidad",
     "userPassport":"Pasaporte de: @{{nickname}}",
     "myPassport":"Mi pasaporte",
-    "routeForm":"Creador de rutas"
+    "routeCreator":"Creador de rutas"
   }
 }

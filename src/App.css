@@ -19,10 +19,10 @@
     url("./assets/fonts/GOTHICB.woff") format("woff");
 }
 :root {
-  --padding-top-view:75PX;
+  --padding-top-view: 75px;
   --main-color: #d2393e;
   --secondary-color: #707070;
-  --green-color: #5baa73;
+  --tertiary-color: gainsboro;
   --blue-color: #5b72aa;
   --main-font: "Antonio Font", sans-serif;
   --secondary-font: "Century Gothic", sans-serif;
@@ -33,7 +33,21 @@
   --shadow-3: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
     0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
 }
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+  border: none;
+  outline: none;
+}
+:focus {
+  outline:none;
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+  outline: none;
 
+}
+:root::-moz-selection { color: red;outline:none;}
+:root:selection { color: red; }
 body {
   font-family: sans-serif;
   margin: 0;
@@ -88,7 +102,6 @@ input:focus {
   font-size: 0.9em;
   margin-bottom: 4px;
 }
-
 .tp-input-group .radio-group {
   display: flex;
   align-items: center;

@@ -7,10 +7,11 @@ import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: "gainsboro",
-    paddingTop: "var(--padding-top-view)",
+    backgroundColor: "var(--tertiary-color)",
+    paddingTop: "10vh",
     paddingLeft: "0",
     paddingRight: "0",
+    height:"120vh"
   },
   header: {
     backgroundColor: "var(--secondary-color)",
@@ -30,13 +31,13 @@ function ViewContainer({ children, title }) {
   const classes = useStyles();
   const { t } = useTranslation();
   return (
-    <Container className={classes.root} maxWidth="lg">
+    <Container className={classes.root} maxWidth="lg" style={{paddingLeft:"0px",paddingRight:"0px"}}>
       <Grid item xs={12} md={12}>
       <Suspense fallback="loading">
         <Toolbar className={classes.header}>{t(title)}</Toolbar>
         </Suspense>
       </Grid>
-      <Grid item xs={12} md={12}>
+      <Grid item xs={12} md={12} style={{paddingLeft:"0px",paddingRight:"0px"}}>
         {children}
       </Grid>
     </Container>

@@ -9,10 +9,10 @@ const useStyles = makeStyles(theme => ({
         borderRadius: 25,
         border: "1px solid var(--main-color)",
         fontFamily: "var(--secondary-font)",
-        color: "var(--main-color)",
-        fontWeight: 400,
+        color: "var(--tertiary-color)",
+        backgroundColor:"var(--main-color)",
+        fontWeight: 700,
         minWidth: 150,
-        
     }
 }));
 
