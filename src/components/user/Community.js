@@ -11,10 +11,9 @@ function Community() {
   );
 
   useEffect(() => {
-    console.log(passports.length)
-    if (!passports.length) {
+
       listPassports();
-    }
+
   }, []);
 
   async function listPassports() {

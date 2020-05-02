@@ -12,8 +12,13 @@ const useStyles = makeStyles((theme) => ({
     border: "15px solid var(--secondary-color)"
     
   },
+  rootForm:{
+    background:"white",
+    border: "15px solid var(--secondary-color)"
+  },
+  
   passport: {
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "var(--tertiary-color)",
   },
   header: {
     backgroundColor: "var(--secondary-color)",
@@ -68,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
   uploadButton: {},
 
   profileInput: {
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "var(--tertiary-color)",
     borderRadius: 20,
     padding: 1,
     border: "none",
@@ -84,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
   },
   description: {
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "var(--tertiary-color)",
     borderRadius: 20,
     padding: 1,
     border: "none",

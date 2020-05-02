@@ -1,5 +1,6 @@
 // import { Router, Route, Switch, Redirect } from "react-router-dom";
 import React, { Suspense, useState, useEffect } from "react";
+import { Container, Grid } from "@material-ui/core";
 import uuid from "uuid/v4";
 import Amplify, { Hub, API, graphqlOperation, Auth } from "aws-amplify";
 import { Route, Switch, useHistory } from "react-router-dom";
@@ -9,7 +10,7 @@ import awsmobile from "./aws-exports";
 
 import PrivateRoute from "./_helpers/PrivateRoute";
 import ViewContainer from "./components/navigation/ViewContainer";
-import "./App.css"; //variables
+import "./App.css"; //variables css aqui dentro
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -19,6 +20,7 @@ import MobileMenu from "./components/navigation/MobileMenu";
 import PassportForm from "./components/user/PassportForm";
 import Community from "./components/user/Community";
 import MapContainer from "./components/routes/Map";
+import RouteCreator from "./components/routes/RouteCreator"
 
 import {
   createUser as CreateUser,
@@ -28,8 +30,10 @@ import {
 Amplify.configure(awsmobile);
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+  },
   postHeader: {
-    marginTop: "var(--header-height)",
+    background: "var(--tertiary-color)"
   },
 }));
 
@@ -131,7 +135,7 @@ function App(props) {
   };
 
   return (
-    <div className={classes.root}>
+    <Container className={classes.root}>
       <Suspense fallback="loading">
         <Header
           currentUser={currentUser}
@@ -139,7 +143,7 @@ function App(props) {
           mobileOpen={mobileOpen}
           setMobileOpen={setMobileOpen}
         />
-        {mobileOpen && isSmallScreen ? (
+        {mobileOpen ? (
           <MobileMenu
             currentUser={currentUser}
             setCurrentUser={setCurrentUser}
@@ -169,12 +173,15 @@ function App(props) {
               </ViewContainer>
             </PrivateRoute>
             <PrivateRoute path="/route" exact>
-                <MapContainer />
+              <MapContainer />
+              <ViewContainer title="sectionTitle.routeCreator">
+              <RouteCreator />
+              </ViewContainer>
             </PrivateRoute>
           </Switch>
         </div>
       </Suspense>
-    </div>
+    </Container>
   );
 }
 

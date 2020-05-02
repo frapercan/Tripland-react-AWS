@@ -86,8 +86,8 @@
     "sectionTitle":{
       "community": "Community",
       "userPassport":"@{{nickname}} Passport",
-      "myPassport":"Mi pasaporte",
-      "routeForm":"Creador de rutas"
+      "myPassport":"My passport",
+      "routeCreator":"Route Creator"
     }
 
 }

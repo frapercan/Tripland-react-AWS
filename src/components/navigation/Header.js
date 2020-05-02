@@ -34,6 +34,7 @@ const useStyles = makeStyles(theme => ({
   },
   appBar: {
     backgroundColor: "#333333",
+    minHeight:"5vh",
     [theme.breakpoints.up("sm")]: {
       width: `calc(100%)`
     }
@@ -82,8 +83,8 @@ function Header(props) {
   };
 
   return (
-    <AppBar position="fixed" className={classes.appBar}>
-      <Toolbar>
+    <AppBar  className={classes.appBar}>
+      <Toolbar className={classes.toolBar}>
         <div className={classes.logoDiv}>
           <Link to={"/"}>
             <img src={logo} alt={"Logo Tripland"} />

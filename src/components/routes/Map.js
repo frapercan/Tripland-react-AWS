@@ -5,8 +5,8 @@ import { Container, Grid } from "@material-ui/core";
 export function MapContainer(props) {
 
   return (
-    <Container>
-      <Grid style={{position: 'relative',width:"100%",height:"45vh",paddingTop: "var(--padding-top-view)"}}>
+    <Container  maxWidth="xl" style={{paddingLeft:"0px",paddingRight:"0px"}}>
+      <Grid style={{position: 'relative',width:"100%",height:"45vh",paddingTop: "var(--padding-top-view)", paddingLeft:"0px"}}>
         <Map google={props.google} zoom={14}></Map>
       </Grid>
     </Container>
