@@ -15,4 +15,6 @@
 <li>amplify pull “dev”</li>
 <li>npm start</li>
 </ul>
+<h1 id="demo">Demo:</h1>
+<p><a href="https://master.dmd4o9tfn85m7.amplifyapp.com/home">https://master.dmd4o9tfn85m7.amplifyapp.com/home</a></p>
 
